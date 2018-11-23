@@ -22,6 +22,7 @@
     }
 
 button:focus {
+    outline: 1px dotted;
      outline: none; 
 }
     .navbar-light .menu-icon img {
