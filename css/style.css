@@ -16,6 +16,18 @@
         background:rgba(26,27,27,0.7);
         margin-top:10px;
     }
+    .navbar-light .navbar-toggler-icon {
+        background-image: none;
+        
+    }
+
+button:focus {
+     outline: none; 
+}
+    .navbar-light .menu-icon img {
+        text-align:center!important;
+       
+    }
 }
     .parallax .navbar-brand span{
         border:solid 7px #00a78e;
