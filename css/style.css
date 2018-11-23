@@ -391,6 +391,11 @@ margin-bottom:0;
               }
              
             }
+            @media (max-width: 575px) {
+                .skills-progres{
+                    margin-top:-45px;;
+                }
+            }
 .skills-left,.skills-right{
     padding-top:2rem;
     padding-left:2rem;
@@ -405,6 +410,9 @@ margin-bottom:0;
     font-size:1.1em;
     line-height:1.8em;
     margin-top:1em;
+    }
+    .progress-bg{
+        background:#00a78e!important;
     }
       /********************************** skillss part end **********************************/
 
