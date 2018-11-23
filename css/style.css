@@ -59,21 +59,8 @@ max-width:100%;
 }
 
 /************************************nabarrrrrrrr endddddddddddd**************************************/
-@media (min-width: 707px) and (max-width: 767px) {
-    .parallax { 
-      
-       // background-position: 100px 0 !important;
-        
-    }
-}
-@media (max-width: 706px) {
-    .parallax { 
-      
-       /* background-position: 50px 0 !important; */
-        
-    }
-}
-/* https://joshisurbhi97.github.io/surbhijoshi/images/1.jpg */
+
+
 @media (max-width: 767px) {
     .parallax { 
         background:url(https://joshisurbhi97.github.io/surbhijoshi/images/11.jpg) no-repeat center !important;
@@ -274,12 +261,7 @@ margin-bottom:0;
         border:none!important;
         border-radius:0 !important;
     }
-    /* .about-right{
-       
-        background:url(/images/01.jpg) no-repeat -300px -100px;
-       height:507px;
-        padding:0;
-        } */
+   
        
         @media (min-width: 992px) and (max-width: 1199px) {
           
@@ -328,14 +310,16 @@ margin-bottom:0;
             .about-left ul li .btn.about-btn, .about-left ul li .btn.hire-btn{
                 border:2px solid #00a78e;
                 border-radius:2em;
-                padding: 0 !important;
+                padding: 0 1rem 0 1rem!important;
+                line-height: 2.5rem !important;
+                font-size: 0.6rem;
                 }
                 .btn-outline-success {
                    
                     letter-spacing: .15rem;
-                    line-height: 2rem !important;
+                    /* line-height: 0rem !important; */
                     margin-top: .6rem;
-                    font-size: 0.6rem;
+                    /* font-size: 0.6rem; */
                     padding: 0 !important;
 
                 }
